@@ -10,6 +10,9 @@ function Observer (data) {
             console.log('key', key);
             console.log('key1', key);
 
+            console.log('key3',key);
+            console.log('key4',key);
+
             if (Subscriber.target) {
                 subscriber.depend(key);
             }
