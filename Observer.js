@@ -8,6 +8,7 @@ function Observer (data) {
             // 如果订阅者存在，进去depend方法
 
             console.log('key', key);
+            console.log('key1', key);
 
             if (Subscriber.target) {
                 subscriber.depend(key);
