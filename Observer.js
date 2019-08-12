@@ -39,6 +39,7 @@ function observer (data) {
     Object.keys(data).forEach(key => {
         data[key] = observer(data[key]);
     });
+    console.log('test1');
 
     return Observer(data);
 }
